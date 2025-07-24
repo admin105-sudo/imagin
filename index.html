@@ -1,269 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abinaya | Cloud & DevOps Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<h1>Abinaya Pandiyarajan Portfolio</h1>
+<h2>Skills</h2>
+<h3>----Amazon Web Service</h3>
+<h3>----Devops</h3>
+<h3>------Postman</h5>
+<h3>------Jenkin</h3>
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
-      color: #2c3e50;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
+<p>Im an aspiring AWS & DevOps Engineer with a strong foundation in cloud computing, Linux, scripting, and automation tools like Git, Jenkins, Docker, and Kubernetes. I’ve completed hands-on projects and labs using AWS services such as EC2, S3, IAM, CloudFormation, and have also worked with CI/CD pipelines, infrastructure as code, and container orchestration.
 
-    header {
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-      animation: fadeInDown 1s ease-in-out;
-    }
+I hold certifications in [AWS Certified Cloud Practitioner / AWS Solutions Architect Associate], and I’m constantly learning through real-world simulations, online labs, and personal projects. My passion lies in automating workflows, optimizing infrastructure, and ensuring smooth deployment cycles.
 
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
+🔧 Skills: AWS, EC2, S3, IAM, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Linux, Bash, Python, CI/CD, CloudFormation
 
-    nav {
-      background: #222;
-      text-align: center;
-      padding: 15px 0;
-      animation: fadeIn 2s ease-in-out;
-    }
+🎯 Looking for: Opportunities where I can contribute, grow, and continue learning in cloud and DevOps domains.
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 20px;
-      padding: 10px 20px;
-      border-radius: 30px;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-
-    nav a:hover {
-      background: #1abc9c;
-      color: white;
-      box-shadow: 0 0 10px #1abc9c;
-    }
-
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-      animation: fadeInUp 1.2s ease forwards;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 15px;
-      padding: 30px;
-      margin: 30px 0;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-      transition: all 0.4s ease;
-      transform: scale(0.98);
-      animation: scaleIn 1s ease forwards;
-    }
-
-    .card:hover {
-      transform: scale(1.02);
-      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    }
-
-    h2 {
-      color: #5a189a;
-      margin-bottom: 20px;
-      position: relative;
-    }
-
-    h2::after {
-      content: '';
-      width: 50px;
-      height: 4px;
-      background: #1abc9c;
-      position: absolute;
-      left: 0;
-      bottom: -10px;
-      border-radius: 2px;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li::before {
-      content: "✔";
-      color: #1abc9c;
-      margin-right: 10px;
-    }
-
-    a {
-      color: #764ba2;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-
-    a:hover {
-      color: #1abc9c;
-      text-decoration: underline;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #1abc9c;
-      color: white;
-      border-radius: 25px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      box-shadow: 0 5px 15px rgba(26, 188, 156, 0.4);
-    }
-
-    .btn:hover {
-      background: #16a085;
-      transform: translateY(-3px);
-    }
-
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-
-    .icon {
-      margin-right: 8px;
-      color: #1abc9c;
-    }
-
-    /* Animations */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translateY(-30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes scaleIn {
-      from {
-        transform: scale(0.95);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-    @media (max-width: 768px) {
-      nav a {
-        display: block;
-        margin: 10px auto;
-        width: 80%;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Abinaya P</h1>
-    <p>Cloud Computing & DevOps Enthusiast</p>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <div class="card">
-      <h2>About Me</h2>
-      <p>I’m a passionate learner in Cloud Computing and DevOps. Currently exploring AWS, Git, Jenkins, Docker, and automation tools. I love solving real-world deployment challenges and contributing to infrastructure reliability and efficiency.</p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="card">
-      <h2>Skills</h2>
-      <ul>
-        <li>AWS EC2, S3, IAM, Lambda, RDS, VPC</li>
-        <li>Git & GitHub</li>
-        <li>Jenkins CI/CD Pipelines</li>
-        <li>Docker & Containerization</li>
-        <li>Linux Fundamentals & Shell Scripting</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="card">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>AWS Auto Scaling:</strong> Designed EC2 Auto Scaling architecture using Load Balancers and Launch Templates.</li>
-        <li><strong>CI/CD Pipeline:</strong> Set up a complete Jenkins pipeline with Git integration and Docker builds.</li>
-        <li><strong>Static Website Hosting:</strong> Deployed a responsive website using S3 with CloudFront and Route 53.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="card">
-      <h2>Contact</h2>
-      <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:abiofficial1805@gmail.com">abiofficial1805@gmail.com</a></p>
-      <p><i class="fab fa-linkedin icon"></i>LinkedIn: <a href="https://www.linkedin.com/in/abinaya-pandiyarajan-7a98a0277" target="_blank">View Profile</a></p>
-      <a href="#" class="https://drive.google.com/file/d/1L6JpV3wEl5MfAPAVyr_9h1vDIVXK63OR/view?usp=drivesdk">Download Resume</a>
-    </div>
-  </section>
-
-  <footer>
-    &copy; Abinaya Pandiyarajan| Cloud & DevOps Portfolio
-  </footer>
-
-</body>
-</html>
+Let’s connect if you’re in the cloud, DevOps, or tech hiring space!
+</p>
 
 
+<center><h1>Cloud & devops</h1>
+<img src="aws devops.png" alt="Cloud&Devops" width=1000p><br>
+<a href="https://www.youtube.com/shorts/OCkgPeJ2SBs">BGM</a></center>
 
 
-
+<ul>
+     <a href="https://www.linkedin.com/in/abinaya-pandiyarajan-7a98a0277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+       <li>Email</li> 
+        <li>Github</li>
+</ul>
+<center>
+<iframe src=https://www.13moviesda.com/</iframe>
+</center>
